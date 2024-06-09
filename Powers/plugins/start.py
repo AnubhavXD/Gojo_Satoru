@@ -148,11 +148,13 @@ Join my [News Channel](https://t.me/Hogwarts_Network) to get information on all 
 async def start_back(_, q: CallbackQuery):
     try:
         cpt = f"""
-Hey [{q.from_user.first_name}](http://t.me/{q.from_user.username})! I am Gojo ✨.
-I'm here to help you manage your group(s)!
-Hit /help to find out more about how to use me in my full potential!
+๏Hey [{q.from_user.first_name}](http://t.me/{q.from_user.username})! 
+๏ 𝖳𝗁𝗂𝗌 𝗂𝗌 Akari Watanabe !
+➻ 𝖠𝗇 𝖠𝗇𝗂𝗆𝖾 𝗍𝗁𝖾𝗆𝖾𝖽 𝖯𝗈𝗐𝖾𝗋𝖿𝗎𝗅 𝖺𝗇𝖽 𝖠𝖽𝗏𝖺𝗇𝖼𝖾𝖽 𝖦𝗋𝗈𝗎𝗉 𝖬𝖺𝗇𝖺𝗀𝖾𝗆𝖾𝗇𝗍 𝖡𝗈𝗍 𝗐𝗂𝗍𝗁 𝗅𝗈𝗍𝗌 𝗈𝖿 𝗎𝗌𝖾𝖿𝗎𝗅 𝖢𝗈𝗆𝗆𝖺𝗇𝖽𝗌.
+───────────────────────
+➛ 𝖢𝗅𝗂𝖼𝗄 𝖮𝗇 𝖳𝗁𝖾 /𝖧𝖾𝗅𝗉 𝖡𝗎𝗍𝗍𝗈𝗇 𝖳𝗈 𝖦𝖾𝗍 𝖨𝗇𝖿𝗈𝗋𝗆𝖺𝗍𝗂𝗈𝗇 𝖠𝖻𝗈𝗎𝗍 𝖬𝗒 𝖬𝗈𝖽𝗎𝗅𝖾𝗌 𝖠𝗇𝖽 𝖢𝗈𝗆𝗆𝖺𝗇𝖽𝗌.
 
-Join my [News Channel](http://t.me/gojo_bots_network) to get information on all the latest updates."""
+Join my [News Channel](http://t.me/Hogwarts_Network) to get information on all the latest updates."""
 
         await q.edit_message_caption(
             caption=cpt,
@@ -170,7 +172,7 @@ async def commands_menu(_, q: CallbackQuery):
     keyboard = ikb(ou, True)
     try:
         cpt = f"""
-Hey **[{q.from_user.first_name}](http://t.me/{q.from_user.username})**! I am Gojo✨.
+Hey **[{q.from_user.first_name}](http://t.me/{q.from_user.username})**! I am Akari✨.
 I'm here to help you manage your group(s)!
 Commands available:
 × /start: Start the bot
@@ -243,7 +245,7 @@ async def help_menu(_, m: Message):
             ou = await gen_cmds_kb(m)
             keyboard = ikb(ou, True)
             msg = f"""
-Hey **[{m.from_user.first_name}](http://t.me/{m.from_user.username})**!I am Gojo✨.
+Hey **[{m.from_user.first_name}](http://t.me/{m.from_user.username})**!I am Akari✨.
 I'm here to help you manage your group(s)!
 Commands available:
 × /start: Start the bot
