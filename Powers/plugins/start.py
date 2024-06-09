@@ -32,7 +32,7 @@ Your donation might also me get me a new feature or two, which I wasn't able to 
 
 All the fund would be put into my services such as database, storage and hosting!
 
-You can donate by contacting my owner: [Captain Ezio](http://t.me/iamgojoof6eyes)
+You can donate by contacting my owner: [Sanskar](http://t.me/LuffyIsOnline)
      """
 
     LOGGER.info(f"{m.from_user.id} fetched donation text in {m.chat.id}")
@@ -107,11 +107,13 @@ async def start(c: Gojo, m: Message):
                 
         try:
             cpt = f"""
-Hey [{m.from_user.first_name}](http://t.me/{m.from_user.username})! I am Gojo ✨.
-I'm here to help you manage your group(s)!
-Hit /help to find out more about how to use me in my full potential!
+๏ Hey [{m.from_user.first_name}](http://t.me/{m.from_user.username})! 
+๏ 𝖳𝗁𝗂𝗌 𝗂𝗌 Akari !
+➻ 𝖠𝗇 𝖠𝗇𝗂𝗆𝖾 𝗍𝗁𝖾𝗆𝖾𝖽 𝖯𝗈𝗐𝖾𝗋𝖿𝗎𝗅 𝖺𝗇𝖽 𝖠𝖽𝗏𝖺𝗇𝖼𝖾𝖽 𝖦𝗋𝗈𝗎𝗉 𝖬𝖺𝗇𝖺𝗀𝖾𝗆𝖾𝗇𝗍 𝖡𝗈𝗍 𝗐𝗂𝗍𝗁 𝗅𝗈𝗍𝗌 𝗈𝖿 𝗎𝗌𝖾𝖿𝗎𝗅 𝖢𝗈𝗆𝗆𝖺𝗇𝖽𝗌.
+───────────────────────
+➛ 𝖢𝗅𝗂𝖼𝗄 𝖮𝗇 𝖳𝗁𝖾 /𝖧𝖾𝗅𝗉 𝖡𝗎𝗍𝗍𝗈𝗇 𝖳𝗈 𝖦𝖾𝗍 𝖨𝗇𝖿𝗈𝗋𝗆𝖺𝗍𝗂𝗈𝗇 𝖠𝖻𝗈𝗎𝗍 𝖬𝗒 𝖬𝗈𝖽𝗎𝗅𝖾𝗌 𝖠𝗇𝖽 𝖢𝗈𝗆𝗆𝖺𝗇𝖽𝗌.
 
-Join my [News Channel](https://t.me/gojo_bots_network) to get information on all the latest updates."""
+Join my [News Channel](https://t.me/Hogwarts_Network) to get information on all the latest updates."""
 
             await m.reply_photo(
                 photo=str(choice(StartPic)),
